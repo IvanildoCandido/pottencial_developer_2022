@@ -3,7 +3,8 @@ using pottencial_developer_2022.Models;
 int inventoryAmmount = 2;
 int soldAmmount = 3;
 bool exit = true;
-char option = '0';
+string? imput;
+char? option = '0';
 string display = "";
 
 while (exit)
@@ -19,7 +20,13 @@ while (exit)
     Console.WriteLine("4 - Buscar");
     Console.WriteLine("0 - Sair");
 
-    option = Convert.ToChar(Console.ReadLine());
+
+    imput = Console.ReadLine();
+    if (imput != null)
+    {
+
+        option = Convert.ToChar(imput);
+    }
     switch (option)
     {
         case '1':
