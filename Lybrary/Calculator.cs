@@ -1,9 +1,9 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace pottencial_developer_2022.Models
+namespace Lybrary.Models
 {
     public class Calculator
     {
