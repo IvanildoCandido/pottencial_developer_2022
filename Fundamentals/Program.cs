@@ -18,6 +18,8 @@ while (exit)
     Console.WriteLine("2 - Editar");
     Console.WriteLine("3 - Deletar");
     Console.WriteLine("4 - Buscar");
+    Console.WriteLine("5 - Testar Condicional");
+    Console.WriteLine("6 - Testar Calculadora");
     Console.WriteLine("0 - Sair");
 
 
@@ -49,6 +51,39 @@ while (exit)
                 display = "Buscar clientes.";
                 break;
             }
+        case '5':
+            {
+                // Teste condicional
+                Console.Clear();
+                bool success = inventoryAmmount >= soldAmmount;
+
+                if (success)
+                {
+                    Console.WriteLine("Venda Realizada");
+                }
+                else
+                {
+                    Console.WriteLine("Impossível realizar a venda.");
+                }
+                Console.WriteLine("Pressione ENTER para continuar...");
+                Console.ReadLine();
+                break;
+            }
+        case '6':
+            {
+
+                Console.Clear();
+                // Calculadora exemplo de operações
+
+                Calculator calc = new Calculator();
+                calc.Operation(10, 20, '+');
+                calc.Operation(10, 20, '-');
+                calc.Operation(10, 20, '*');
+                calc.Operation(20, 2, '/');
+                Console.WriteLine("Pressione ENTER para continuar...");
+                Console.ReadLine();
+                break;
+            }
         case '0':
             {
                 Console.WriteLine("Programa encerrado.");
@@ -64,22 +99,6 @@ while (exit)
     }
 }
 
-bool success = inventoryAmmount >= soldAmmount;
 
-if (success)
-{
-    Console.WriteLine("Venda Realizada");
-}
-else
-{
-    Console.WriteLine("Impossível realizar a venda.");
-}
 
-// Calculadora exemplo de operações
-
-Calculator calc = new Calculator();
-calc.Operation(10, 20, '+');
-calc.Operation(10, 20, '-');
-calc.Operation(10, 20, '*');
-calc.Operation(20, 2, '/');
 
