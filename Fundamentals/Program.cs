@@ -20,6 +20,7 @@ while (exit)
     Console.WriteLine("4 - Buscar");
     Console.WriteLine("5 - Testar Condicional");
     Console.WriteLine("6 - Testar Calculadora");
+    Console.WriteLine("7 - Exemplos Array e Listas");
     Console.WriteLine("0 - Sair");
 
 
@@ -81,6 +82,15 @@ while (exit)
                 calc.Operation(10, 20, '*');
                 calc.Operation(20, 2, '/');
                 Console.WriteLine("Pressione ENTER para continuar...");
+                Console.ReadLine();
+                break;
+            }
+        case '7':
+            {
+                Console.Clear();
+                ArrayAndList arrayAndList = new ArrayAndList();
+                arrayAndList.setDays();
+                arrayAndList.printDays();
                 Console.ReadLine();
                 break;
             }
