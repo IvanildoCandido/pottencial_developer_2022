@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pottencial_developer_2022",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lybrary", "Lybrary\Lybrary.csproj", "{B2338FE5-F51E-4F80-A8F2-C9919899A1FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertiesExplorer", "PropertiesExplorer\PropertiesExplorer.csproj", "{6DE752D8-BA21-4568-9D7A-24F60F15E368}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{B2338FE5-F51E-4F80-A8F2-C9919899A1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2338FE5-F51E-4F80-A8F2-C9919899A1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2338FE5-F51E-4F80-A8F2-C9919899A1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE752D8-BA21-4568-9D7A-24F60F15E368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE752D8-BA21-4568-9D7A-24F60F15E368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE752D8-BA21-4568-9D7A-24F60F15E368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE752D8-BA21-4568-9D7A-24F60F15E368}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
