@@ -9,6 +9,7 @@ namespace PropertiesExplorer.Models
     public class Person
     {
         private string _name;
+        private int _age;
         public string Name
         {
             get => _name.ToUpper();
@@ -22,7 +23,17 @@ namespace PropertiesExplorer.Models
                 _name = value;
             }
         }
-        public int Age { get; set; }
+        public int Age
+        {
+            get => _age; set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("A idade não pode ser menor que 'Zero'.");
+                }
+                _age = value;
+            }
+        }
 
         public string Meeting()
         {
