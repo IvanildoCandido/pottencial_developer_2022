@@ -8,6 +8,14 @@ namespace PropertiesExplorer.Models
 {
     public class Person
     {
+        public Person()
+        {
+
+        }
+        public Person(string Name)
+        {
+            _name = Name;
+        }
         private string _name;
         private int _age;
         public string Name
