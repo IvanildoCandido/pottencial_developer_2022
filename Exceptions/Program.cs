@@ -1,4 +1,5 @@
-﻿
+﻿using Lybrary.Models;
+;
 string[] lines = File.ReadAllLines("Files/fileModel.txt");
 
 Queue<string> queue = new Queue<string>();
@@ -32,3 +33,9 @@ foreach (var state in states)
 {
     Console.WriteLine($"Chave = {state.Key} - Valor = {state.Value}");
 }
+
+TupleExamples tuple = new TupleExamples();
+
+var (id, name, age) = tuple.person();
+
+Console.WriteLine($"ID: {id} NOME: {name} IDADE: {age}");
