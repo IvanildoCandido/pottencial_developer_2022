@@ -1,0 +1,14 @@
+[
+  {
+    "Id": 1,
+    "Description": "Impressora 3D X4",
+    "Price": 456.80,
+    "SellDate": "2022-09-30T11:57:25.740846-03:00"
+  },
+  {
+    "Id": 2,
+    "Description": "Telescópio Lunar",
+    "Price": 1200.30,
+    "SellDate": "2022-09-30T11:57:25.7492159-03:00"
+  }
+]

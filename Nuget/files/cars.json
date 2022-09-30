@@ -1,0 +1,12 @@
+[
+  {
+    "Id": 1,
+    "Brand_Factory": "FIAT",
+    "Model": "Idea"
+  },
+  {
+    "Id": 2,
+    "Brand_Factory": "CHEVROLET",
+    "Model": "Classic"
+  }
+]
